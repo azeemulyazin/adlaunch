@@ -300,7 +300,7 @@
   }
 
   new Swiper(".choose-us__active", {
-    slidesPerView: 3,
+    slidesPerView: 2 ,
     spaceBetween: 30,
     loop: true,
     autoplay: { delay: 3000 },
@@ -309,7 +309,7 @@
       nextEl: ".choose-us__slider__arrow-prev",
     },
     breakpoints: {
-      1200: { slidesPerView: 3 },
+      1200: { slidesPerView: 2 },
       992: { slidesPerView: 2 },
       0: { slidesPerView: 1 },
     },

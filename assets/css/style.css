@@ -3,11 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&amp;family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap");
 :root {
   --primary: #000000;
-  --secondary: #b3ec11;
+  --secondary: #0072CE;
   --black: #000000;
   --white: #ffffff;
   --blue: #3b4eff;
-  --action: #b3ec11;
+  --action: #0072CE;
 }
 
 :root {
@@ -408,8 +408,8 @@ section {
   font-size: 18px;
   line-height: 28px;
   border-radius: 90px;
-  background: #b3ec11;
-  color: var(--primary);
+  background: #0072CE;
+  color: #ffffff;
   padding: 5px 25px;
 }
 .section-sub__wrapper span {
@@ -5052,7 +5052,8 @@ section {
 @media only screen and (max-width: 1919px) {
   .our-services__item .title-wrapper .title {
     gap: 40px;
-    font-size: 70px;
+    font-size: 40px;
+    line-height: 42px;
   }
 }
 @media only screen and (max-width: 1399px) {
@@ -5064,7 +5065,8 @@ section {
 @media only screen and (max-width: 767px) {
   .our-services__item .title-wrapper .title {
     font-size: 50px;
-    line-height: 60px;
+    line-height: 32px;
+    line-height: 32px;
   }
 }
 @media (max-width: 575px) {
